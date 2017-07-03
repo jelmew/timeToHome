@@ -12,6 +12,6 @@ int main() {
         cout << "Go home!!" << endl;
         return 0;
     }
-    cout << hours << " :hours, " << minutes << " :minutes, " << seconds << " : seconds to lunch" << endl;
+    cout << hours << " :hours, " << minutes << " :minutes, " << seconds << " : seconds to go home" << endl;
     return 0;
 }
