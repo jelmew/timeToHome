@@ -9,7 +9,7 @@ int main() {
     int minutes = 60 - 1 - ltm->tm_min;
     int hours = 16 - 1 - ltm->tm_hour;
     if (hours < 0) {
-        cout << "You are already " << abs(hours) << " :hours" << minutes << " :minutes, " << seconds
+        cout << "You are already " << abs(++hours) << " :hours" << minutes << " :minutes, " << seconds
              << " :seconds past time" << endl;
         cout << "Go home!!" << endl;
         return 0;
